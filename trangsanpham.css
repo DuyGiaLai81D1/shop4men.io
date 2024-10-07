@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1518px;
+    height: auto;
+   
+
+}
+
+#gia {
+    color: red;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    height: 30px;
+    background-color: #292929;
+
+}
+
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    color: #ded0d0;
+    line-height: 30px;
+}
+
+.header2 {
+    font-family: Inter;
+}
+
+nav {
+    height: 250px;
+    background-color: #FFFFFF;
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.nav2 {
+    line-height: 80px;
+}
+
+.nav2 p {
+    float: left;
+}
+
+.nv3 {
+    padding-left: 10px;
+}
+
+#nav3 {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav3con {
+    margin-left: 150px
+}
+
+#article {
+    width: 55%;
+    float: left;
+    height: auto;
+    margin-left: 150px;
+}
+
+#article1 {
+    display: flex;
+}
+
+#article2 {
+    width: 250px;
+    height: auto;
+    margin: 0 10px;
+}
+
+#article2 img {
+    width: 250px;
+
+}
+
+aside {
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#sanphamhot{
+    height: auto;
+}
+footer{
+    margin-top: 150px;
+width: 100%;
+height: auto;
+background-color: #292929;
+
+
+}
+button.button1:hover{
+background-color: #343434;
+}
+#footer2{
+width: 100%;
+height: 150px;
+background-color: #060606;
+text-align: left;
+}
+.button1{
+    height: 35px; 
+    background-color: red; 
+    border: 0 red; 
+    color: white; 
+    width: 80px;
+}
+section>.button1:hover{
+    background-color: #a20101;
+}
