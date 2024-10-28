@@ -1,172 +1,223 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
-body{
-    width: 1518px;
-    height: auto;
-    text-align: center;
-}
-header{
-    height: 30px;
-    background-color:#292929 ;
 
-}
-#header1{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 150px;
-    color:  #ded0d0;
-    line-height:30px;
-}
-.header2{
-    font-family: Inter;
-}
-nav{
-    height: 82px;
-    background-color: #FFFFFF;
-}
-#nav1{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 150px;
-}
-.nav2{
-    line-height: 80px;
-}
-.nav2 p{
-    float: left;
-}
-.nv3{
-    padding-left: 10px;
-}
-.main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    height: auto;
-    text-align: center;
-    margin-left: 140px;
-   
-}
-.main4{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    height: auto;
-    text-align: center;
-    margin-left: 140px;
-   
-}
-#main1{
-    margin-top: 130px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    height: auto;
-    text-align: center;
-    margin-left: 140px;
-    background-color: #FAFAFA;       
-}
-#main2{
+#layout {
     width: 100%;
-    height: 50px;
-    line-height: 50px;
 }
-.article1{
-    width: 300px;
-    height: 350px;
-    padding: 0 15px;
-    margin-top: 100px;
-}
-.article11{
-    width: 300px;
-    height: 350px;
-    padding: 0 15px;
-}
-.article3{
-    height: 50px;
-    line-height: 50px;
-}
-.color{
-    color: red;
-}
-.color1{
-    color: #7E7777;
+.duyem>.img>img{
+   width: 100px;
 }
 
-#main1 img {
-transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-#main1 img:hover {
-transform: scale(1.0.5); 
-opacity: 0.8; 
-}
-#main5 {
-    margin-top: 100px;
-    background: #fafafa;
-    border-top: 1px solid #f0f0f0;
+header {
     width: 100%;
-    height: 200px;
-}
-
-.duy {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between; 
-}
-
-#main5 .duy p {
-    margin: 0;
-    padding: 0;
-    text-align: left; 
-}
-
-footer{
-    width: 100%;
-    height: auto;
     background-color: #292929;
-    text-align: left;
+}
 
+.dau1 {
+    width: 1250px;
+    margin: 0 auto;
 }
-section>p>button.button1:hover{
-   background-color: #343434;
-}
-#footer2{
-    width: 100%;
-    height: 150px;
-    background-color: #060606;
-}
-.article11>img{
-    width: 100%;
-    transition: transform 0.3s ease, opacity 0.3s ease;
 
+.flext {
+    display: flex;
+    justify-content: space-between;
 }
-.article11>img:hover{
-    transform: scale(1.0.5); 
-    opacity: 0.8; 
-}
-.article1>img{
-    width: 100%;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-   
 
+.flext > div > .chu-dau1 {
+    color: #ded0d0;
+    line-height: 39px;
+    display: inline;
 }
-.article1>img:hover{
-    transform: scale(1.0.5); 
-    opacity: 0.8; 
+
+#nav {
+    width: 100%;
+    height: 100px;
 }
-.nav2>p:hover{
-    color: #7E7777;
-    text-decoration: underline;
+
+#nav-than1 {
+    width: 1250px;
+    margin: 0 auto;
 }
-.nav2>a>p:hover{
-    color: #7E7777;
-    text-decoration: underline;
+
+.img {
+    margin-top: 14px;
+}
+
+.menu-con > p, .menu-con > a > p {
+    width: 500px;
+    height: 100px;
+    display: inline;
+    line-height: 100px;
+    margin: 20px;
+}
+
+.duyem {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+#main{
+    width: 1250px;
+    background-color: #ffffff;
+    height:500px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 24px;
+    text-align: center;
+}
+#khoi-san-pham{
+    display: flex;
+    justify-content: space-between;
+}
+.sanpham{
+    width:300px;
+    height: 460px;
+    background-color: #f7f7f7;
+}
+.p{
+    text-align: center;
+}
+.red{
+    text-align: center;
+    color: red;
+    display: inline;
+    margin: 5px;
+}
+.nau{
+    color: #ded0d0;
+    text-align: center;
+    display: inline;
+    margin: 5px;
+}
+#banner-phu{
+margin-top: 25px;
+}
+#banner-phu .img-img{
+    margin: 0 31px;
+    }
+@media only screen and (max-width: 896px) {
+    body {
+        min-height: 2000px;
+        box-sizing: border-box;
+    }
+    #main{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        
+    }
+    #khoi-san-pham{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100;
+    }
+    #banner-phu {
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        }
+        #banner-phu .img-img{
+           margin:0 5px;
+            }
+    .sanpham{
+        width:187px;
+        height: 320px;
+        background-color: #f7f7f7;
+        margin: 10px 10px;
+    }
+    .p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .red{
+        text-align: center;
+        color: red;
+        display: inline;
+        margin: 5px;
+        font-size: 11px;
+    }
+    .nau{
+        color: #ded0d0;
+        text-align: center;
+        display: inline;
+        margin: 5px;
+        font-size: 11px;
+    }
+    .h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .dau1 {
+        display: none;
+    }
+    #nav{
+        height: 65px;
+        width: 100%;
+    }
+
+    .duyem>.img>img{
+        width: 70px;
+        margin-top: 0;
+     }
+     .img{
+        margin-top: 8px;
+    }
+    .duyem {
+        width: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        top: 0;
+        padding: 0 10px;
+    }
+    .giohang{
+        width: 30px;
+        height: 30px;
+        background-color: rgba(54, 52, 52, 0.5);
+        display: inline-block;
+        border-radius: 5px;
+        position: absolute;
+        top: 16px;
+        right:45px;
+    }
+
+    .menu-con {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(54, 52, 52, 0.5);
+        position: absolute;
+        top: 16px;
+        right: 5px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        cursor: pointer; /* Thêm con trỏ để rõ là có thể nhấn */
+    }
+    
+    .menu-con:focus-within{
+        width: 100%;
+        height:auto;
+        background-color: rgb(254, 254, 254);
+        top: 50px;
+        right: 0;
+        border-top: 1px solid #ccc;
+        display: inline-block;
+    }
+    .menu-con > p, .menu-con > a > p {
+        display: none;
+        margin: auto;
+    }
+    .menu-con:focus-within > p,
+.menu-con:focus-within > a > p {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+    .banner {
+        background-size: cover;
+    }
 }
